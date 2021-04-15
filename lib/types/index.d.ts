@@ -1,6 +1,6 @@
 /// <reference types="node" />
 declare const _default: {
-    encode: (plain: string | Buffer) => Buffer;
-    decode: (encoded: string | Buffer) => Buffer;
+    encode: (plain: Uint8Array) => string;
+    decode: (encoded: string) => Uint8Array;
 };
 export default _default;
